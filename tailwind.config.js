@@ -14,6 +14,9 @@ module.exports = {
       fontSize: {
         "6.5xl": "4rem",
       },
+      backgroundImage: (theme) => ({
+        "cloth-preview": "url('https://i.postimg.cc/tR2rsrct/vvZQmlz.jpg')",
+      }),
     },
   },
   variants: {

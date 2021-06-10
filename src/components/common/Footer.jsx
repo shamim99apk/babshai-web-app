@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className=" content-padding bg-dark-theme py-6 md:py-10">
+    <footer className=" content-padding bg-dark-theme py-6 md:py-10 mt-auto">
       <div className=" grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center">
         <div>
           <h1 className=" text-light-theme text-4xl font-bold">Bebshai</h1>
