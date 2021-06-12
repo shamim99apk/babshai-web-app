@@ -1,12 +1,18 @@
 import React from "react";
-import TodoContainer from "./pages/TodoContainer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Products } from "./components";
 
 const App = () => {
   return (
-      <div>
-        <h1>Simple Boilerplate React Context Hooks</h1>
-        <TodoContainer />
-      </div>
+    <div className=" font-roboto">
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Products} />
+        </Switch>
+      </Router>
+      {/* <h1 className=" text-6.5xl">Simple Boilerplate React Context Hooks</h1>
+      <TodoContainer /> */}
+    </div>
   );
 };
 
